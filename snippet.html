@@ -1,13 +1,14 @@
 <div class="flipcard">
 <style>
-  .flipcard{box-sizing:border-box;width:100%;padding:76px 56px 66px;border-radius:20px;background:#000;box-shadow:inset 0 0 36px 20px #faf3e6}
+  .flipcard{box-sizing:border-box;width:100%;padding:90px 72px 84px;position:relative;isolation:isolate}
+  .flipcard::before{content:"";position:absolute;inset:50px;z-index:-1;background:#000;border-radius:40px;filter:blur(16px)}
   .fliprow{display:flex;flex-wrap:wrap;gap:20px;align-items:flex-start}
 </style>
 <div class="flipcar">
   <style>
     .flipcar{width:100%;margin:0 0 14px;text-align:center;color:#ecebe4;
       font:10px/1.4 ui-monospace,"SF Mono",Menlo,Consolas,monospace}
-    .flipcar img{display:block;width:100%;height:auto}
+    .flipcar img{display:block;width:100%;height:auto;-webkit-mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent);mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent)}
     .flipcar small{opacity:.6}
     .flipcar a{color:inherit}
   </style>
@@ -17,7 +18,7 @@
 <div class="fliprow">
 <div class="flipbio">
   <style>
-    .flipbio{flex:1 1 200px;margin:0;color:#ecebe4;
+    .flipbio{flex:1 1 140px;margin:0;color:#ecebe4;
       font:15px/1.55 ui-monospace,"SF Mono",Menlo,Consolas,monospace}
     .flipbio p{margin:0 0 8px}
     .flipbio b{color:#ff5b14;font-weight:normal}
