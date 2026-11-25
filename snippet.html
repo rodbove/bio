@@ -1,0 +1,79 @@
+<div class="flipcard">
+<style>
+  .flipcard{box-sizing:border-box;width:340px;max-width:100%;padding:20px;border-radius:20px;background:#000}
+</style>
+<div class="flipcar">
+  <style>
+    .flipcar{width:300px;max-width:100%;margin:0 0 14px;text-align:center;color:#ecebe4;
+      font:10px/1.4 ui-monospace,"SF Mono",Menlo,Consolas,monospace}
+    .flipcar img{display:block;width:100%;height:auto}
+    .flipcar small{opacity:.6}
+    .flipcar a{color:inherit}
+  </style>
+  <img src="https://rodbove.github.io/bio/car.png" alt="vectra b preto girando, do jogo the-scene" width="360" height="225">
+  <small>the-scene &middot; modelo <a href="https://sketchfab.com/3d-models/opel-vectra-b-2001-979f231d0b014ff19e87d02759546591">szymonpasterczyk734</a>, <a href="http://creativecommons.org/licenses/by/4.0/">cc by 4.0</a></small>
+</div>
+<div class="flipbio">
+  <style>
+    .flipbio{max-width:300px;margin:0 0 18px;color:#ecebe4;
+      font:15px/1.55 ui-monospace,"SF Mono",Menlo,Consolas,monospace}
+    .flipbio p{margin:0 0 8px}
+    .flipbio b{color:#ff5b14;font-weight:normal}
+    .flipbio a{color:#ff5b14}
+  </style>
+  <p>desenvolvedor, explorando <b>rust</b>, softwares para música, jogos e outras coisas antes do trabalho.</p>
+  <p>teste o <a href="https://github.com/rodbove/flip">flip</a>:</p>
+</div>
+<div class="flipmini">
+  <style>
+    .flipmini{box-sizing:border-box;width:300px;max-width:100%;padding:18px 18px 20px;border-radius:18px;
+      background:#9d9e99;box-shadow:0 5px 0 #6c6d69,0 10px 20px rgba(0,0,0,.25);
+      font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;color:#1c1c1c;user-select:none}
+    .flipmini *{box-sizing:border-box}
+    .flipmini .fm-top{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:12px}
+    .flipmini .fm-logo{font:300 34px/1 -apple-system,Helvetica,sans-serif;letter-spacing:-1px;margin:0;color:#1c1c1c}
+    .flipmini .fm-sub{display:block;font-size:8px;color:#454642;letter-spacing:1px;margin-top:4px}
+    .flipmini .fm-grille{display:grid;grid-template-columns:repeat(6,5px);gap:4px}
+    .flipmini .fm-grille i{display:block;width:5px;height:5px;border-radius:50%;background:#555652}
+    .flipmini .fm-screen{background:#0d0e0f;border:6px solid #2a2a2a;border-radius:10px;padding:8px 10px;
+      margin-bottom:14px;color:#ecebe4;font-size:12px;display:flex;justify-content:space-between}
+    .flipmini .fm-screen b{color:#ff5b14;font-weight:normal}
+    .flipmini .fm-pads{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+    .flipmini .fm-pad{position:relative;height:84px;border-radius:7px;background:#ddddd7;color:#1c1c1c;
+      padding:8px;font-size:12px;box-shadow:0 3px 0 #5e5f5b;overflow:hidden}
+    .flipmini .fm-pad span{position:absolute;left:8px;bottom:8px;font-size:10px;color:#454642}
+    .flipmini .fm-pad:hover{background:#e3ddd5}
+    .flipmini .fm-pad:active{transform:translateY(2px);box-shadow:0 1px 0 #5e5f5b;outline:2px solid #ff5b14;outline-offset:-2px}
+    .flipmini .fm-pad audio{position:absolute;left:calc(50% - 28px);top:calc(50% - 27px);width:300px;height:54px;
+      transform:scale(4);transform-origin:28px 27px;opacity:.001;cursor:pointer}
+    .flipmini .fm-pad audio:playing{pointer-events:none}
+  </style>
+  <div class="fm-top">
+    <div><p class="fm-logo">flip</p><span class="fm-sub">PAD SAMPLER F-1</span></div>
+    <div class="fm-grille"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  </div>
+  <div class="fm-screen"><span>A-<b>01</b> PLAY</span><span>100 BPM</span></div>
+  <div class="fm-pads">
+    <div class="fm-pad">01<span>kick</span>
+      <audio controls preload="auto" src="https://rodbove.github.io/bio/sounds/kick.wav"></audio>
+      <audio controls preload="auto" src="https://rodbove.github.io/bio/sounds/kick.wav"></audio>
+      <audio controls preload="auto" src="https://rodbove.github.io/bio/sounds/kick.wav"></audio>
+      <audio controls preload="auto" src="https://rodbove.github.io/bio/sounds/kick.wav"></audio>
+      <audio controls preload="auto" src="https://rodbove.github.io/bio/sounds/kick.wav"></audio>
+      <audio controls preload="auto" src="https://rodbove.github.io/bio/sounds/kick.wav"></audio>
+    </div>
+    <div class="fm-pad">02<span>snare</span>
+      <audio controls preload="auto" src="https://rodbove.github.io/bio/sounds/snare.wav"></audio>
+      <audio controls preload="auto" src="https://rodbove.github.io/bio/sounds/snare.wav"></audio>
+      <audio controls preload="auto" src="https://rodbove.github.io/bio/sounds/snare.wav"></audio>
+      <audio controls preload="auto" src="https://rodbove.github.io/bio/sounds/snare.wav"></audio>
+    </div>
+    <div class="fm-pad">03<span>hat</span>
+      <audio controls preload="auto" src="https://rodbove.github.io/bio/sounds/hat.wav"></audio>
+      <audio controls preload="auto" src="https://rodbove.github.io/bio/sounds/hat.wav"></audio>
+      <audio controls preload="auto" src="https://rodbove.github.io/bio/sounds/hat.wav"></audio>
+      <audio controls preload="auto" src="https://rodbove.github.io/bio/sounds/hat.wav"></audio>
+    </div>
+  </div>
+</div>
+</div>
