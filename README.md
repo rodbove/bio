@@ -15,5 +15,7 @@ Each pad holds copies of the browser audio player. The players are invisible and
 
 - "Opel Vectra B 2001" by szymonpasterczyk734, licensed under CC-BY-4.0.
   Source: https://sketchfab.com/3d-models/opel-vectra-b-2001-979f231d0b014ff19e87d02759546591
+- "Car wheel" by AngryBearr, licensed under CC-BY-4.0.
+  Source: https://sketchfab.com/3d-models/car-wheel-4b5f1d35e1f54615b692938bd02bb217
   License: http://creativecommons.org/licenses/by/4.0/
   Changes: black paint, 18x10 wheels with silver rims, rendered as a turntable animation.
